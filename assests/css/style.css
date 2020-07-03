@@ -69,3 +69,8 @@ hero-outer {
 #navbar ul li a{
     color: white;
 }
+
+/*Navigation link items animation added to change colours when the mouse covers it*/
+#navbar ul li a:hover{
+    color: green!important;
+}
