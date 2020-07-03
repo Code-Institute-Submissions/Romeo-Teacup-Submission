@@ -44,3 +44,10 @@ hero-outer {
     }
 }
 /*-------HOME PAGE BACKGROUND END--------*/
+
+/*----------------------------------NAVIGATION SECTION-------------------*/
+/*Navigation bar customised using CSS to make height of my logo bigger on the page*/
+.navbar-brand img {
+    height: 100px; 
+    padding-left: 0px;
+}
