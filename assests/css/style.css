@@ -15,3 +15,24 @@ body {
     font-family: Jost, sans-serif;  /*Overall Font--*/
     color: black; /*Overall Colour throughout document---*/
 }
+
+/*-------HOME PAGE BACKGROUND--------*/
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url("https://thehappypuppysite.com/wp-content/uploads/2019/05/cute-dog-quotes-HP-long.jpg") no-repeat center center;/*Background image repeat removed and center in the middle of the screen*/
+    background-size: cover;/*STRETCH image to fill entire background*/
+
+    animation-name: hero-zoom; /*zoom effect added*/
+    animation-duration: 10s; /*zoom effect lasts for 10 seconds*/
+    animation-fill-mode: forwards; /*image appears to be moving forwards*/
+}
+
+hero-outer {
+    height: 700px; /*same as hero image*/
+    width: 100%; /*same as hero image*/
+    overflow: hidden;
+    position: relative;
+}
+
+/*-------HOME PAGE BACKGROUND END--------*/
