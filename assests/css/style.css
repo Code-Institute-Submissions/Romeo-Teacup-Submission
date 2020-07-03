@@ -65,7 +65,7 @@ hero-outer {
   margin-right:15px;
 }
 
-/*Navigation link items arranged in the Navbar aligned to the right*/
+/*Navigation link items in the Navbar changed to the colour white*/
 #navbar ul li a{
     color: white;
 }
