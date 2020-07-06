@@ -24,7 +24,7 @@ body {
     background-size: cover;/*STRETCH image to fill entire background*/
 
     animation-name: hero-zoom; /*zoom effect added*/
-    animation-duration: 10s; /*zoom effect lasts for 10 seconds*/
+    animation-duration: 8s; /*zoom effect lasts for 8 seconds*/
     animation-fill-mode: forwards; /*image appears to be moving forwards*/
 }
 
@@ -46,7 +46,8 @@ hero-outer {
 /*-------HOME PAGE BACKGROUND END--------*/
 /*----------------------------------HOME PAGE Cover Text----------------*/
 #cover-text, #cover-text h1{/*heading text over hero image styled*/
-    color: whitesmoke;
+    color: white;
+    text-align: center;
 }
 
 #cover-text{ /*text over hero image styled*/
@@ -62,10 +63,8 @@ hero-outer {
     padding-left: 30px;
     padding-right: 30px;
 
-    background-color: red;
-
-    bottom: 30px;
-    left: 290px;
+    bottom: 200px;
+    left: 50px;
 
     position: absolute;
 }
