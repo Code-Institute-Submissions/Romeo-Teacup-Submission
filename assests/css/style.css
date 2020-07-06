@@ -44,6 +44,31 @@ hero-outer {
     }
 }
 /*-------HOME PAGE BACKGROUND END--------*/
+/*----------------------------------HOME PAGE Cover Text----------------*/
+#cover-text, #cover-text h1{/*heading text over hero image styled*/
+    color: whitesmoke;
+}
+
+#cover-text{ /*text over hero image styled*/
+    font-size: 140%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 800px;
+    height: 200px;
+
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: red;
+
+    bottom: 30px;
+    left: 290px;
+
+    position: absolute;
+}
 
 /*----------------------------------NAVIGATION SECTION-------------------*/
 /*Navigation bar customised using CSS to make height of my logo bigger on the page*/
