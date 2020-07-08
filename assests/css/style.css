@@ -98,3 +98,27 @@ hero-outer {
 #navbar ul li a:hover{
     color: green!important;
 }
+
+/*------------------------------------------FOOTER Social Media links & COPYWRIGHT--------------------------------------------*/ 
+footer{
+    height: 50px;
+    width: 100%;
+    padding: 2.5% 2.5% 12.5% 2.5%;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+}
+/*------------------------Social media links styled at the bottom of footer---------------------------*/
+.social-networks{
+    text-align: center;
+    height: 100px;
+}
+
+.social-networks li {
+    display: inline
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 0;
+    padding: 5%;
+    color: black;}
