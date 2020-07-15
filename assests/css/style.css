@@ -180,5 +180,16 @@ footer{
 
 /*------SHOP-------*/
 #discount-code{
-    padding-top: 10.5%;
+    padding-top: 8.5%;
+}
+
+.romes-closet{
+    background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
+    background-size: 1650px 680px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#romes-closet{
+    height: 680px;
 }
