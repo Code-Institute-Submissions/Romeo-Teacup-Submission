@@ -122,3 +122,29 @@ footer{
     margin: 0;
     padding: 5%;
     color: black;}
+
+    /*about section customised in css*/
+#about{
+    background-color: #aed581;
+    background-size: contain;
+    padding-top: 12%;
+    padding-bottom: 4%;
+    position: left;
+    font-style: italic;
+}
+
+#about h2{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+#measurements{
+    background-color: #aed581;/*for illustration purpose remember to change back to white*/
+    background-size: contain;
+    padding-bottom: 6%;
+    position: center;
+}
+
+#measurements li{
+    line-height: 37px;
+}
