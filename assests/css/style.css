@@ -181,8 +181,16 @@ footer{
 
 .romes-closet{
     background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
-    background-size: 1650px 680px;
+    background-size: 1600px 680px;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 0;
 }
 
+.rome-container{
+    color: white;
+}
+
+p.text-muted{
+  color: white;
+}/*NOT FINISHED not changing to white*/
