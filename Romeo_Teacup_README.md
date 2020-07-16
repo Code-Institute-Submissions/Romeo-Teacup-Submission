@@ -95,23 +95,45 @@ Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+I tested all my html codes for each sepreate page using a html validator called Nu Html Checker and made the necessary corrections. 
+Home Page Testing
+NAVBAR sticks to the top and all Navbar item link's work correctly.
+The zoom animation of the Home Page Image is working 
+Footer works and connects to the right links.
+
+About page Testing:
+Information is displayed correctly, in the right position and correct colours and the image is the correct size and in the right position.
+
+Social-Media Page:
+The images are diplayed clearly in the correct position and size.
+The videos work when the user clicks the play button on the TikTok videos.
+
+Shop page Testing:
+Go to the "Shop" page
+Click discount code large button
+Pop up appears showing unique discount code.
+Click close.
+The discount code button works displaying the pop up modal with the discount code as text when the user clicks the large button.
+
+Go to the "Shop" page
+Click Visit Store button
+New store loads.
+The jumbatron image and text is diplayed correctly. The Visit Store button works and connects to external site as desired.
+
+Contact form page Testing:
+Unfortunately when I try to submit the form with all inputs valid and the form an error message appears even if completed correctly and I think this is due to not having a database to hold the information submitted.
+When I try to submit the form with an invalid email address the same error page appears as above that reads "The site configured at this address does not contain the requested file."
+However if you go to the "Contact Us" page and try to submit the empty form there is an error message about the required fields appears that reads "Please fill in this field"
+
+I have had issues making the site mobile responsive and have found this the ost difficult part of the project. But the site looks great on desktop and IPAD sized screens.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
-
+I deplyoyed the project using GitHub by going to the correct repositry and clicking on settings. On the next screen I scrolled down to the Github pages 
+and for the source I selected the MASTER Branch. The page reloaded then I selected the option in Github pages that became available that reads "your site is ready to be published".
+Upon revieweing the details in the settings it now reads  Your site is published at https://kimberleychi.github.io/Romeo-Teacup-Submission/.
+I didnt experience any difficulties deploying the project and the deployed version and the development version are exactly the same as desired.
 
 References
 
