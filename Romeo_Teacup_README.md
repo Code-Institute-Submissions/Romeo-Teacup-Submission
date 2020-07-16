@@ -46,10 +46,8 @@ Feature: Instagram
 I would like to include 6 photographs from Romeos instagram but have not yet decided which photographs to select, so I have used 3 stock photos 6 times for illustration purposes until I can include Romeos original photographs.
 
 Romescloset Shop Page
-
 Feature: Romescloset Banner
 The Romescloset shop page was created using a Jumbotron from Bootstrap4 and customised to my specification. I have used a stock photo until I decide on which original photograph to use.  The aim of this page is to provide an external link to a dog boutique owned by Romeo that sells dog clothes and accessories. Visitors of this site will have an interest in dogs or own a dog themselves, therefore I wanted to use this site created to provide information as a way to advertise the shop and use it as a secondary way to driving more traffic to www.romescloset.com.
-
 Feature: Discount-code
 The discount code section allows all visitors of the site to obtain a discount code to be used on an external site www.romescloset.com where all his merchandise is sold. I used a button that has a modal pop up revealing a unique discount code the user can use. The user can click through the visit site button on the page to be redirected to the shop. The intention is that this will work as an incentive for visitors of the site to visit Romeo’s store and use the discount code. It also acts as a reward for visitors for checking out the site www.romeoteacup.com. The discount code is positioned at the top of the page so it is the first thing that is read, just above the Romescloset Jumbotron.
 
@@ -61,7 +59,6 @@ Another feature idea I would like to include in the future is the ability to req
 
 
 Technologies Used
-
 JQUERY
 The project uses JQuery to simplify DOM manipulation.
 
@@ -92,9 +89,6 @@ The project used a code validator to ensure the code worked properly with no fau
 
 
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 I tested all my html codes for each sepreate page using a html validator called Nu Html Checker and made the necessary corrections. 
 Home Page Testing
 NAVBAR sticks to the top and all Navbar item link's work correctly.
@@ -121,22 +115,20 @@ New store loads.
 The jumbatron image and text is diplayed correctly. The Visit Store button works and connects to external site as desired.
 
 Contact form page Testing:
-Unfortunately when I try to submit the form with all inputs valid and the form an error message appears even if completed correctly and I think this is due to not having a database to hold the information submitted.
+Unfortunately when I try to submit the form with all inputs valid, the form returns an error message that appears even if completed correctly and I think this is due to not having a database to hold the information submitted.
 When I try to submit the form with an invalid email address the same error page appears as above that reads "The site configured at this address does not contain the requested file."
 However if you go to the "Contact Us" page and try to submit the empty form there is an error message about the required fields appears that reads "Please fill in this field"
 
-I have had issues making the site mobile responsive and have found this the ost difficult part of the project. But the site looks great on desktop and IPAD sized screens.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I have had issues making the site mobile responsive and have found this the most difficult part of the project. But the site looks great on desktop and IPAD sized screens.
+
 
 Deployment
-In addition, if it is not obvious, you should also describe how to run your code locally.
 I deplyoyed the project using GitHub by going to the correct repositry and clicking on settings. On the next screen I scrolled down to the Github pages 
 and for the source I selected the MASTER Branch. The page reloaded then I selected the option in Github pages that became available that reads "your site is ready to be published".
 Upon revieweing the details in the settings it now reads  Your site is published at https://kimberleychi.github.io/Romeo-Teacup-Submission/.
 I didnt experience any difficulties deploying the project and the deployed version and the development version are exactly the same as desired.
 
 References
-
 https://mdbootstrap.com/education/bootstrap/
 https://stackoverflow.com/
 https://www.w3schools.com/howto/
