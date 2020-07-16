@@ -193,6 +193,8 @@ footer{
 
 .rome-container{
     color: white;
+    padding-top: 20%;
+    text-align: center;
 }
 
 p.text-muted{
